@@ -8,7 +8,7 @@ function YourBot({bot, yourBots, setYourBots}) {
     }
     function deleteForever(){
       releaseBot();
-      fetch(`http://localhost:8001/bots/${bot.id}`, {
+      fetch(`http://localhost:3000/bots/${bot.id}`, {
           method : "DELETE"
         })
     }

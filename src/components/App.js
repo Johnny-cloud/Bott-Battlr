@@ -15,11 +15,10 @@ function App() {
 
   useEffect(
     () => {
-      fetch("http://localhost:8001/bots")
+      fetch(`http://localhost:3000/bots`)
       .then(res => res.json())
-      .then(data => {
-        setBots([...data]); 
-      })
+      .then(data =>  setBots([...data]))
+      .catch(err => alert("Kindly ensure you are fetching data from port 8001"))
     },[]
   )
 

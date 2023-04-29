@@ -10,7 +10,7 @@ function BotSpecs({yourBots, setYourBots}) {
 
   useEffect(
     () => {
-      fetch(`http://localhost:8001/bots/${botId}`)
+      fetch(`http://localhost:3000/bots/${botId}`)
       .then(res => res.json())
       .then(data => {console.log(data); setBot(data)})
     },[botId]
