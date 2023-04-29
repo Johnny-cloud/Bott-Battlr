@@ -1,7 +1,15 @@
 import React from "react";
 import {createRoot} from "react-dom/client"
+import App from "./components/App";
+import { BrowserRouter } from "react-router-dom";
+
+import "./styles/index.css"
 
 
 let nodeRoot = document.getElementById("root");
 let root = createRoot(nodeRoot);
-root.render(<h1>Welcome to react</h1>)
+root.render(
+<BrowserRouter>
+    <App />
+</BrowserRouter>
+)

@@ -3,9 +3,6 @@ import Bot from './Bot'
 
 function BotCollection({bots, setYourBots, yourBots, setFilteredBots,filteredBots}) {
 
-  
-  
-  
   function handleChange(event){
     if(event.target.value === "All"){
       setFilteredBots(bots);
