@@ -45,7 +45,6 @@ function App() {
       <Route exact path={`/bot-specs/:botId`} element={
         <BotSpecs yourBots={yourBots} setYourBots={setYourBots}/>
       }/>
- 
 
       </Routes>
       
