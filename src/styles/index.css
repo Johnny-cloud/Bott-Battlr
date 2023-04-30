@@ -54,6 +54,10 @@ body{
 }
 .btn-danger{
     background-color: red;
+    font-size: 18px;
+}
+.btn-danger:hover{
+    font-size: 20px;
 }
 .btn-brown{
     background-color: brown;

@@ -29,7 +29,7 @@ function BotCollection({bots, setYourBots, yourBots, setFilteredBots,filteredBot
       </select>
       <br />
       <br />
-      <h2>(Hint : Select bots based on their roles from the dropdown list and click on a bot to view its details and enlist it)</h2>
+      <h2>(Hint : Select bots based on their roles from the dropdown list and click on a bot to view its details and enlist it. Check the enlisted bots in My Bots section)</h2>
       <br />
   
       <div className='bots-collection'>

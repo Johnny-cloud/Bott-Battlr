@@ -22,7 +22,7 @@ function YourBot({bot, yourBots, setYourBots}) {
         <h3>Armor : {bot.armor}</h3>
         <h3>Title : {bot.bot_class}</h3>
         <button className='btn btn-brown' onClick={releaseBot}>Discharge bot</button>
-        <button className='btn btn-danger' onClick={deleteForever}>X</button>
+        <button className='btn-danger' onClick={deleteForever}>X</button>
      </div>
     </div>
    
