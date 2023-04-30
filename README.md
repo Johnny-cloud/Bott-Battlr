@@ -22,4 +22,4 @@ It is a web app that allows a user to browse through a list of robots, view a ro
 5. Run the command "npm install" to install the project's dependencies
 6. The data to be used is in the **src/data/db.json** folder.
 7. Run the command **"json-server --watch src/data/db.json"** to start up the json-server on port 3000. This is where you will get the data to be used.
-8. Run the command "npm start" in the root folder to start up the project. If it asks you to run the project on another port in the localhost just type in "y" for yes. This is because the Json-server will run on port 3000.
+8. Run the command "npm start" in the root folder to start up the project. It will ask you to run the project on another port in the localhost. Just type in "y" for yes. This is because the Json-server will run on port 3000.
